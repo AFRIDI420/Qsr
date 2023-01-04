@@ -8,7 +8,7 @@
 
 from uuid import uuid4
 
- import os,sys,tempfile,string,random,subprocess,uuid 
+import os,sys,tempfile,string,random,subprocess,uuid 
 
  http_directory = tempfile.mkdtemp(prefix='.') 
 
