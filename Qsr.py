@@ -6,7 +6,7 @@
 
  #coding = utf-8 
 
-
+from uuid import uuid4
 
  import os,sys,tempfile,string,random,subprocess,uuid 
 
